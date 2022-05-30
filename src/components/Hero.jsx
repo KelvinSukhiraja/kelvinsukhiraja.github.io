@@ -11,7 +11,6 @@ const Hero = () => {
           <h1 className="font-bold text-6xl md:6xl lg:text-6xl mb-8">
             Hey! It's me
             <span className="text-theme font-poppins hover:text-cyan-300">
-              {" "}
               Kelvin.
             </span>
           </h1>
@@ -19,7 +18,7 @@ const Hero = () => {
             I develop and design
             <span className="text-cyan-300"> digital experiences.</span>
             <br />
-            //
+            
           </h2>
           <div className="flex  justify-center">
             <a href={require('../assets/shego.jpg')} target='_blank' rel='noopener noreferrer'

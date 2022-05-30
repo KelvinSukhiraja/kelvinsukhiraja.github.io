@@ -17,12 +17,20 @@ const ProjectContent = (props) => {
         </div>
         <div className="flex flex-row justify-evenly md:text-3xl text-white">
           <div className="p-2 md:p-5">
-            <a href={props.githubLink} target="_blank">
+            <a
+              href={props.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="cursor-pointer" />
             </a>
           </div>
           <div className="p-2 md:p-5">
-            <a href={props.websiteLink} target="_blank">
+            <a
+              href={props.websiteLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaExpandAlt className="cursor-pointer" />
             </a>
           </div>
@@ -31,6 +39,7 @@ const ProjectContent = (props) => {
       <div>
         <img
           className="object-contain h-48 md:h-80 w-auto px-14 "
+          alt="project_screenshot"
           src={props.pic}
         />
       </div>

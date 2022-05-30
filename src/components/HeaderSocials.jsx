@@ -9,7 +9,7 @@ const HeaderSocials = () => {
     >
       <a
         href="https://www.linkedin.com/in/kelvin-sukhiraja/"
-        target="_blank"
+        target="_blank" rel="noopener noreferrer"
         className="m-3 lg:m-5 lg:mr-8 flex justify-end"
       >
         <FaLinkedin />
@@ -17,6 +17,7 @@ const HeaderSocials = () => {
       <a
         href="https://github.com/KelvinSukhiraja/"
         target="_blank"
+        rel="noopener noreferrer"
         className="m-3 lg:m-5 lg:mr-8 flex justify-end"
       >
         <FaGithub />

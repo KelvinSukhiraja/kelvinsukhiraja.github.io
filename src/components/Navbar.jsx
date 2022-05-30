@@ -15,6 +15,7 @@ const Navbar = () => {
           <img
             src={logo}
             className="font-extrabold cursor-pointer p-5 hover:text-theme"
+            alt="logo"
           />
         </Link>
 
