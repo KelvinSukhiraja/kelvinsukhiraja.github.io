@@ -56,24 +56,24 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-body text-white flex flex-col justify-center items-center"
         }
       >
-        <li className="hover:border-b-theme border-transparent border-2 cursor-pointer my-6 text-4xl">
+        <li className="hover:border-b-theme border-transparent border-2 cursor-pointer my-6 text-2xl">
           <Link to="Home" smooth={true} duration={700}>
             Home
           </Link>
         </li>
-        <li className="hover:border-b-theme border-transparent border-2 cursor-pointer my-6 text-4xl">
+        <li className="hover:border-b-theme border-transparent border-2 cursor-pointer my-6 text-2xl">
           <Link to="Skills" smooth={true} duration={700}>
             Skills
           </Link>
         </li>
-        <li className="hover:border-b-theme border-transparent border-2 cursor-pointer my-6 text-4xl">
+        <li className="hover:border-b-theme border-transparent border-2 cursor-pointer my-6 text-2xl">
           <Link to="Projects" smooth={true} duration={700}>
             Projects
           </Link>
         </li>
         <li
           className="px-5 py-2 border-2 border-pink-500 transition ease-in-out hover:bg-theme
-          rounded-md font-bold cursor-pointer my-6 text-4xl"
+          rounded-md font-bold cursor-pointer my-6 text-2xl"
         >
           <Link to="Contact" smooth={true} duration={700}>
             Contact

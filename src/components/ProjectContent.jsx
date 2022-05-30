@@ -7,6 +7,12 @@ const ProjectContent = (props) => {
     "flex flex-col-reverse justify-center my-5 md:p-16",
     props.direction
   );
+
+  const linkIconStr = classNames(
+    "cursor-pointer", 
+      props.linkIcon
+  );
+  
   return (
     <div className={classStr}>
       <div className="text-justify p-7 md:p-10 ">
@@ -15,23 +21,23 @@ const ProjectContent = (props) => {
         <div className="flex flex-row justify-evenly text-sm md:text-lg text-teal-300 pt-3">
           {props.tech}
         </div>
-        <div className="flex flex-row justify-evenly md:text-3xl text-white">
-          <div className="p-2 md:p-5">
-            <a
-              href={props.githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="cursor-pointer" />
-            </a>
-          </div>
+        <div className="flex flex-row justify-end md:text-3xl text-white">
           <div className="p-2 md:p-5">
             <a
               href={props.websiteLink}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaExpandAlt className="cursor-pointer" />
+              <FaExpandAlt className={linkIconStr} />
+            </a>
+          </div>
+          <div className="p-2 md:p-5">           
+            <a
+              href={props.githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="cursor-pointer" />
             </a>
           </div>
         </div>

@@ -8,11 +8,11 @@ const Skills = () => {
       className="h-auto overflow-hidden bg-theme bg-cover w-auto"
     >
       <div className="min-h-screen flex flex-col justify-evenly items-center">
-        <h1 className=" text-4xl self-start m-24 font-bold">Skills</h1>
-        <Parallax translateX={[-100, 0, "easeOutQuint"]}>
+        <h1 className=" text-4xl self-start m-10 md:m-24 font-bold">Skills</h1>
+        <Parallax translateX={[-150, 30]}>
           <div className="flex flex-row m-5">
             <img
-              className="object-contain h-14 md:h-24 w-auto mx-2 md:mx-10 p-4 border bg-white rounded-full"
+              className="object-contain h-14 md:h-24 w-auto mx-2 md:mx-10 p-2 md:p-4 border bg-white rounded-full"
               alt="spring_logo"
               src={require("../assets/spring.png")}
             />
@@ -27,7 +27,7 @@ const Skills = () => {
               src={require("../assets/css.png")}
             />
             <img
-              className="object-contain h-14 md:h-24 w-auto mx-5 md:mx-10 p-3 border bg-white rounded-full"
+              className="object-contain h-14 md:h-24 w-auto mx-5 md:mx-10 md:p-3 border bg-white rounded-full"
               alt="java_logo"
               src={require("../assets/java.png")}
             />
@@ -42,7 +42,7 @@ const Skills = () => {
           />
         </Parallax>
 
-        <Parallax translateX={[50, 0, "easeOutQuint"]}>
+        <Parallax translateX={[50, -80]}>
           <div className="flex flex-row m-5">
             <img
               className="object-contain h-14 md:h-24 w-auto mx-5 md:mx-10"
@@ -60,15 +60,15 @@ const Skills = () => {
               src={require("../assets/android.png")}
             />
             <img
-              className="object-contain h-14 md:h-24 w-auto border p-5 bg-white rounded-full mx-5 md:mx-10"
+              className="object-contain h-14 md:h-24 w-auto border p-2 md:p-5 bg-white rounded-full mx-5 md:mx-10"
               alt="mysql_logo"
               src={require("../assets/mysql.png")}
             />
           </div>
         </Parallax>
         <h1 className="text-lg md:text-3xl self-start m-10 md:m-24 font-thin">
-          Here are some skills that <br />I have had
-          <p className="text-cyan-300">experiences</p> with.
+          Here are some skills that <br />
+          I have had<p className="text-cyan-300">experiences</p> with.
         </h1>
       </div>
 
@@ -80,5 +80,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-//<h1 className="text-[100px] md:text-[500px]">Skills</h1>

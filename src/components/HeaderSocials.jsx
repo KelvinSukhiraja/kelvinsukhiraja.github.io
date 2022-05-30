@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -8,7 +8,7 @@ const HeaderSocials = () => {
     h-full md:flex flex-col justify-end fixed"
     >
       <a
-        href="https://www.linkedin.com/in/kelvin-sukhiraja/"
+        href="https://www.linkedin.com/in/KelvinSukhiraja/"
         target="_blank" rel="noopener noreferrer"
         className="m-3 lg:m-5 lg:mr-8 flex justify-end"
       >
@@ -21,9 +21,6 @@ const HeaderSocials = () => {
         className="m-3 lg:m-5 lg:mr-8 flex justify-end"
       >
         <FaGithub />
-      </a>
-      <a href="/" className="m-3 mb-6 lg:m-5 lg:mr-8 flex justify-end">
-        <FaDiscord />
       </a>
     </div>
   );

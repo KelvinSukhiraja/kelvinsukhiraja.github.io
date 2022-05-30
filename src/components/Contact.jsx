@@ -1,5 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import { FaAngleDoubleUp, FaGithub, FaLinkedin  } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Contact = () => {
   const sendEmail = (e) => {
@@ -13,11 +15,11 @@ const Contact = () => {
         "O7JC4REn5jFpfxgnd"
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+         alert("Submitted!");
         },
-        (error) => {
-          console.log(error.text);
+        () => {
+          alert("Error");
         }
       ); e.target.reset();
   };
@@ -29,10 +31,34 @@ const Contact = () => {
         onSubmit={sendEmail}
         className="flex flex-col max-w-[600px] w-full text-gray-800 min-h-screen justify-center"
       >
-        <div className="mt-28">
+        <div className="self-center text-white text-4xl text transition ease-in-out hover:text-cyan-300 ">
+          <Link to="Home" smooth={true} duration={700}>
+            <FaAngleDoubleUp />
+          </Link>
+        </div>
+        <div className="mt-10 md:mt-28">
           <p className="text-4xl md:text-7xl font-extrabold inline text-body ">
             Contact
           </p>
+          <div className="flex text-cyan-400">
+            <a
+              href="https://www.linkedin.com/in/KelvinSukhiraja/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="m-3 lg:m-5 lg:mr-8 flex justify-end"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/KelvinSukhiraja/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="m-3 lg:m-5 lg:mr-8 flex justify-end"
+            >
+              <FaGithub />
+            </a>
+          </div>
+
           <p className="text-white my-5">
             Send me a message and I'll get back to you!
           </p>
@@ -42,10 +68,11 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           className="my-2 p-2 rounded-lg"
-          type="text"
+          type="email"
           placeholder="E-Mail"
           name="email"
         />
@@ -58,7 +85,8 @@ const Contact = () => {
         <input
           type="submit"
           value="Send"
-          className="text-4xl text-white border-2 border-cyan-300 rounded-2xl hover:bg-cyan-300 px-8 py-3 mt-10 mx-auto flex items-center"
+          name="submit"
+          className="font-bold text-xl md:text-4xl text-body border-2 border-cyan-400 rounded-2xl hover:bg-cyan-300 px-8 py-3 mt-10 mx-auto flex items-center"
         />
       </form>
     </div>
