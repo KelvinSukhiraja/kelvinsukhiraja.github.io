@@ -31,7 +31,7 @@ const Contact = () => {
         onSubmit={sendEmail}
         className="flex flex-col max-w-[600px] w-full text-gray-800 min-h-screen justify-center"
       >
-        <div className="self-center text-white text-4xl text transition ease-in-out hover:text-cyan-300 ">
+        <div className="self-center text-white text-4xl md:text-6xl transition ease-in-out hover:text-cyan-300 ">
           <Link to="Home" smooth={true} duration={700}>
             <FaAngleDoubleUp />
           </Link>
@@ -40,7 +40,7 @@ const Contact = () => {
           <p className="text-4xl md:text-7xl font-extrabold inline text-body ">
             Contact
           </p>
-          <div className="flex text-cyan-400">
+          <div className="flex text-cyan-400 md:hidden">
             <a
               href="https://www.linkedin.com/in/KelvinSukhiraja/"
               target="_blank"
