@@ -13,7 +13,7 @@ const Projects = () => {
           title="Human-Resource Manager"
           desc="A stylish, modern and easy to use management system design to be
              used by the human-resource department. It is also developed using Spring 
-             Security making it secure and reliable. Web app is deployed on Heroku and uses the ClearDB remote database 
+             Security making it secure and reliable. Web app is deployed on Heroku and uses the ClearDB remote database. 
              -Admin username: admin, password: admin for admin demo-"
           pic={require("../assets/human-resource-manager.png")}
           direction="md:flex-row"
