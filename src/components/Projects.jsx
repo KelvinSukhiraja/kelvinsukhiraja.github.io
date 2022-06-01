@@ -18,6 +18,7 @@ const Projects = () => {
           direction="md:flex-row"
           tech={["Spring", " /Java", " /MySql", " /CSS"]}
           githubLink="https://github.com/KelvinSukhiraja/human-resource-manager"
+          websiteLink="http://human-resource-manager-kelvin.herokuapp.com/"
         />
         <ProjectContent
           title="University Web Parsing App"
