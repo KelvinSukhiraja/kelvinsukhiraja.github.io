@@ -13,7 +13,8 @@ const Projects = () => {
           title="Human-Resource Manager"
           desc="A stylish, modern and easy to use management system design to be
              used by the human-resource department. It is also developed using Spring 
-             Security making it secure and reliable."
+             Security making it secure and reliable. Web app is deployed on Heroku and uses the ClearDB remote database 
+             -Admin username: admin, password: admin for admin demo-"
           pic={require("../assets/human-resource-manager.png")}
           direction="md:flex-row"
           tech={["Spring", " /Java", " /MySql", " /CSS"]}
@@ -35,7 +36,8 @@ const Projects = () => {
           title="Personal Portfolio"
           desc="A reactive website created for the purpose of displaying my skills and 
               experiences. It is developed with current technologies 
-              that best describe what I am passionate about. Btw, you are using it right now"
+              that best describe what I am passionate about. Deployed using Netlify.
+              Btw, you are using it right now"
           pic={require("../assets/PortfolioHomepage.png")}
           direction="md:flex-row"
           tech={["React", " /Tailwind"]}
