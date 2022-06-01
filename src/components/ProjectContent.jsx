@@ -31,7 +31,7 @@ const ProjectContent = (props) => {
               <FaExpandAlt className={linkIconStr} />
             </a>
           </div>
-          <div className="p-2 md:p-5">           
+          <div className="p-2 md:p-5">
             <a
               href={props.githubLink}
               target="_blank"
@@ -43,11 +43,13 @@ const ProjectContent = (props) => {
         </div>
       </div>
       <div>
-        <img
-          className="object-contain h-48 md:h-80 w-auto px-14 "
-          alt="project_screenshot"
-          src={props.pic}
-        />
+        <a href={props.websiteLink} target="_blank" rel="noopener noreferrer">
+          <img
+            className="object-contain h-48 md:h-80 w-auto px-14 "
+            alt="project_screenshot"
+            src={props.pic}
+          />
+        </a>
       </div>
     </div>
   );
