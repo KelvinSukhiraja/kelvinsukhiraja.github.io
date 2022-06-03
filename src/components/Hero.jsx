@@ -9,8 +9,7 @@ const Hero = () => {
       <div className="h-full flex flex-col items-center justify-center text-center md:mx-48 pt-28">
         <div className="flex flex-col justify-center items-center mb-16 md:mb-36 mx-10">
           <h1 className="font-bold text-6xl md:6xl lg:text-6xl mb-8">
-            Hey! It's me
-            <span className="text-theme font-poppins hover:text-cyan-300">
+            Hey! It's me <span className="text-theme font-poppins hover:text-cyan-300">
               Kelvin.
             </span>
           </h1>
