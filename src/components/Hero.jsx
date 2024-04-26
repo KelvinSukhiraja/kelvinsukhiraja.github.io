@@ -20,7 +20,7 @@ const Hero = () => {
           </h2>
           <div className="flex  justify-center">
             <a
-              href={require("../assets/KelvinSukhiraja_CV.pdf")}
+              href={require("../assets/Resume_Kelvin_Sukhiraja.pdf")}
               target="_blank"
               rel="noopener noreferrer"
               className="py-3 px-3 text-sm md:mx-10 md:px-5 md:py-4 md:text-xl border-2 border-theme transition ease-in-out 
