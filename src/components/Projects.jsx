@@ -10,6 +10,26 @@ const Projects = () => {
 
       <div className="flex flex-col justify-center my-10 md:my-32 ">
         <ProjectContent
+          title="BVKE"
+          desc="An e-commerce website that sells Bali-made brownies. It was personally designed by me using figma and was developed using wordpress. 
+          The main point of this website was to promote and advertise the brownies with an easy to navigate and colorful pages that fits the company's brand."
+          pic={require("../assets/BVKEHomepage.png")}
+          direction="md:flex-row"
+          tech={["Figma", " /WordPress"]}
+          githubLink="hidden"
+          linkIcon="https://bvke.shop/"
+        />
+        <ProjectContent
+          title="The Boardroom Partnership"
+          desc="A portfolio for an international business partnership by a team of experienced professional to help local asian busninesses make their footsteps on the international market. 
+          The design of this website was designed by Michellina Verdiani and I personally developed the website using modern technologies such as NEXT js and Tailwind, I also deployed and hosted the website."
+          pic={require("../assets/BoardroomHomepage.png")}
+          direction="md:flex-row"
+          tech={["React", " /NEXT", " /Tailwind"]}
+          githubLink="https://github.com/KelvinSukhiraja/boardroom"
+          linkIcon="https://www.verhezen.net/"
+        />
+        <ProjectContent
           title="Human-Resource Manager"
           desc="A stylish, modern and easy to use management system design to be
              used by the human-resource department. It is also developed using Spring 
