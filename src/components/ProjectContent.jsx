@@ -8,11 +8,9 @@ const ProjectContent = (props) => {
     props.direction
   );
 
-  const linkIconStr = classNames(
-    "cursor-pointer", 
-      props.linkIcon
-  );
-  
+  const expIconStr = classNames("cursor-pointer", props.expIcon);
+  const gitIconStr = classNames("cursor-pointer", props.gitIcon);
+
   return (
     <div className={classStr}>
       <div className="text-justify p-7 md:p-10 ">
@@ -28,7 +26,7 @@ const ProjectContent = (props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaExpandAlt className={linkIconStr} />
+              <FaExpandAlt className={expIconStr} />
             </a>
           </div>
           <div className="p-2 md:p-5">
@@ -37,7 +35,7 @@ const ProjectContent = (props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub className="cursor-pointer" />
+              <FaGithub className={gitIconStr} />
             </a>
           </div>
         </div>

@@ -16,8 +16,8 @@ const Projects = () => {
           pic={require("../assets/BVKEHomepage.png")}
           direction="md:flex-row"
           tech={["Figma", " /WordPress"]}
-          githubLink="hidden"
-          linkIcon="https://bvke.shop/"
+          websiteLink="https://bvke.shop/"
+          gitIcon="hidden"
         />
         <ProjectContent
           title="The Boardroom Partnership"
@@ -27,7 +27,9 @@ const Projects = () => {
           direction="md:flex-row"
           tech={["React", " /NEXT", " /Tailwind"]}
           githubLink="https://github.com/KelvinSukhiraja/boardroom"
-          linkIcon="https://www.verhezen.net/"
+          websiteLink="https://www.verhezen.net/"
+          // githubLink="https://github.com/KelvinSukhiraja/boardroom"
+          // WebsiteLink="https://www.verhezen.net/"
         />
         <ProjectContent
           title="Human-Resource Manager"
@@ -49,7 +51,7 @@ const Projects = () => {
           direction="md:flex-row-reverse"
           tech={["Android", " /Java"]}
           githubLink="https://github.com/KelvinSukhiraja/University-Web-Parsing-Android-App"
-          linkIcon="hidden"
+          expIcon="hidden"
         />
         <ProjectContent
           title="Personal Portfolio"
@@ -61,7 +63,7 @@ const Projects = () => {
           direction="md:flex-row"
           tech={["React", " /Tailwind"]}
           githubLink="https://github.com/KelvinSukhiraja/kelvinsukhiraja.github.io"
-          linkIcon="hidden"
+          expIcon="hidden"
         />
       </div>
     </div>
