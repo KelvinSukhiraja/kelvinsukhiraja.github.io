@@ -10,6 +10,24 @@ const Projects = () => {
 
       <div className="flex flex-col justify-center my-10 md:my-32 ">
         <ProjectContent
+          title="NIREN Creative"
+          desc="A creative agency portfolio website that focuses on a modern UI/UX design with a retro japanese-themed design. This website has seamless animations through pages with an extensive works gallery. I worked directly with the designer through figma to develop this website."
+          pic={require("../assets/NirenHomepage.png")}
+          direction="md:flex-row"
+          tech={["React /", " Vite /", " TailwindCSS /", " Framer"]}
+          websiteLink="https://nirencreative.com/"
+          gitIcon="https://github.com/KelvinSukhiraja/NirenWebsite"
+        />
+        <ProjectContent
+          title="WheelWorks"
+          desc="A short portfolio website for an agency that focuses on digital marketing and online presence. This website was focused on to be a seamless one scroll website that reaches a simple point of contact."
+          pic={require("../assets/WheelworksHomepage.png")}
+          direction="md:flex-row-reverse"
+          tech={["React /", " Vite /", " TailwindCSS /", " Framer"]}
+          websiteLink="https://wheelworks.id/"
+          gitIcon="https://github.com/KelvinSukhiraja/Wheelworks1"
+        />
+        <ProjectContent
           title="BVKE"
           desc="An e-commerce website that sells Bali-made brownies. It was personally designed by me using figma and was developed using wordpress. 
           The main point of this website was to promote and advertise the brownies with an easy to navigate and colorful pages that fits the company's brand."
@@ -24,7 +42,7 @@ const Projects = () => {
           desc="A portfolio for an international business partnership by a team of experienced professional to help local asian busninesses make their footsteps on the international market. 
           The design of this website was designed by Michellina Verdiani and I personally developed the website using modern technologies such as NEXT js and Tailwind, I also deployed and hosted the website."
           pic={require("../assets/BoardroomHomepage.png")}
-          direction="md:flex-row"
+          direction="md:flex-row-reverse"
           tech={["React", " /NEXT", " /Tailwind"]}
           githubLink="https://github.com/KelvinSukhiraja/boardroom"
           websiteLink="https://www.verhezen.net/"
