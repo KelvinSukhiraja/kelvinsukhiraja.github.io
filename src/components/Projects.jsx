@@ -13,7 +13,7 @@ const Projects = () => {
           title="NIREN Creative"
           desc="A creative agency portfolio website that focuses on a modern UI/UX design with a retro japanese-themed design. This website has seamless animations through pages with an extensive works gallery. I worked directly with the designer through figma to develop this website."
           pic={require("../assets/NirenHomepage.png")}
-          direction="md:flex-row"
+          direction="md:flex-row-reverse"
           tech={["React /", " Vite /", " TailwindCSS /", " Framer"]}
           websiteLink="https://nirencreative.com/"
           gitIcon="https://github.com/KelvinSukhiraja/NirenWebsite"
@@ -22,10 +22,19 @@ const Projects = () => {
           title="WheelWorks"
           desc="A short portfolio website for an agency that focuses on digital marketing and online presence. This website was focused on to be a seamless one scroll website that reaches a simple point of contact."
           pic={require("../assets/WheelworksHomepage.png")}
-          direction="md:flex-row-reverse"
+          direction="md:flex-row"
           tech={["React /", " Vite /", " TailwindCSS /", " Framer"]}
           websiteLink="https://wheelworks.id/"
           gitIcon="https://github.com/KelvinSukhiraja/Wheelworks1"
+        />
+        <ProjectContent
+          title="StreamFlix"
+          desc="A small project for an interview at a company. This project show cases the use of APIs and uses MovieDB to fetch datas to create a now showing movies platform."
+          pic={require("../assets/StreamFlixHomepage.png")}
+          direction="md:flex-row-reverse"
+          tech={["React /", " Vite /", " TailwindCSS /", " Axios"]}
+          websiteLink="https://joyful-rolypoly-88af95.netlify.app"
+          gitIcon="https://github.com/KelvinSukhiraja/streamflix-kelvin"
         />
         <ProjectContent
           title="BVKE"
